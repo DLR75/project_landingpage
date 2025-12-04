@@ -36,6 +36,7 @@ body {
 .c_footer {
     align-items: center;
     color: #E5E7EB;
+    font-size: 10px;
     padding: 25px 0 25px 0;
 }
 
@@ -71,20 +72,34 @@ body {
     width: 75%;
     justify-content: center;
     padding: 50px;
-    font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
+    
     /* border: solid red; */
+}
+
+.quote {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 100;
+    
+}
+
+.thor {
+    text-align: end;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .b_5 {
     display: flex;
     width: 75%;
-    justify-content: center;
+    gap: 50px;
+    align-items: center;
     /* border: solid red; */
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    padding: 20px 50px 20px 50px;
     margin: 20px 0 20px 0;
 }
 
@@ -93,41 +108,44 @@ body {
     flex-direction: column;
     gap: 10px;
     /* border: solid green; */
+    padding: 0 25px 0 0;
     width: 50%;
 }
 
 .bc_3 {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    border: solid lightblue;
+    width: 90%;
+    /* border: solid lightblue; */
     gap: 15px;
 }
 
-.bc_3 div {
+.bc_3_b {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid pink;
+    gap: 5px;
+    /* border: solid pink; */
     flex-grow: 1;
+    text-align: center;
+    font-size: 12px;
+    color: #797979;
 }
 
-.bc_4 {
-    text-align: end;
-    font-size: 24px;
-}
+
 
 button {
     width: 80px;
-    color: white;
+    color: #F9FAF8;
     background-color: #3882F6;
     border-style: none;
     border-radius: 3px;
 }
 
 .bc_2 p {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: lighter;
+    color: #c8c8c8;
 }
 
 .image {
@@ -135,4 +153,33 @@ button {
     justify-content: center;
     align-items: center;
     background-color: darkgrey;
+    padding: 0;
+}
+
+.b_5 button {
+    border: 1px solid #F9FAF8;
+}
+
+.b_ilust {
+    display: flex;
+    border: 2.5px solid #3882F6;
+    border-radius: 10px;
+    height: 110px;
+    width: 110px;
+}
+
+ul {
+    list-style: none;
+}
+
+.b_header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 10px;
+    /* border: solid white; */
+}
+
+.bc_3_b p {
+    width: 110px;
 }
