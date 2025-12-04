@@ -2,6 +2,137 @@
     box-sizing: border-box;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    color: black;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.c_header, .c2, .c_footer {
+    background-color: #1F2937;;
+}
+
+.c3, .c5 {
+    background-color: white;
+}
+
+.c_header {
+    padding: 10px 0 10px 0;
+}
+
+.c4 {
+    background-color: #E5E7EB;
+}
+
+.c_footer {
+    align-items: center;
+    color: #E5E7EB;
+    padding: 25px 0 25px 0;
+}
+
+.b_header {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.b_2 {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 35px 0 35px 0;
+    /* border: solid red; */
+}
+
+.b_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    /* border: solid red; */
+    gap: 15px;
+    padding: 15px 20px 50px 20px;
+}
+
+.b_4 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    padding: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    /* border: solid red; */
+}
+
+.b_5 {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    /* border: solid red; */
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 20px 0;
+}
+
+.bc_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: solid green; */
+    width: 50%;
+}
+
+.bc_3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border: solid lightblue;
+    gap: 15px;
+}
+
+.bc_3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid pink;
+    flex-grow: 1;
+}
+
+.bc_4 {
+    text-align: end;
+    font-size: 24px;
+}
+
+button {
+    width: 80px;
+    color: white;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.bc_2 p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
 }
